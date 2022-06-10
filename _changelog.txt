@@ -1,0 +1,463 @@
+====================
+     06-19-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+71403fa58f7d SystemUI: MediaOutputController: Avoid NPE when created with empty packageName
+5d2b0979b04e SystemUI: Redraw display cutout on overlay changes
+9642ebef56e9 fixup! Allow lineage resources package to be overlayed by RRO packages
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+97e867c6a2 Settings: Make NetworkScanHelper max search time customizable
+298a861fba Remove storage manager activation warning
+cf78d79789 Remove roaming warning dialog
+8730aab606 Settings: add maintainer string
+da59235386 Settings: Bring in missing lottie animations
+1582657201 Settings: disable all bugreport settings
+351ef628ac fuelgauge: Use Enhanced Battery Prediction from Turbo
+50073e1fef Expand abbreviation in average memory usage string
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Updater
+c619b53 Updater: Plus bringup
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/codeaurora/telephony
+a5c1a53 IMS: Add Motorola specific API for VT
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/lineage
+1f486b43 apns: Remove user_editable="false" for user visible APNs
+9129456f lineage: prebuilt: Update T-Mobile U.S. APNs from SQ3A.220605.009.B1
+db4d3d56 lineage: prebuilt: Drop GIV Mobile, dead
+d7d60492 lineage: prebuilt: Drop ROK Mobile
+41aa22ba lineage: prebuilt: Drop UVA Mobile
+0b7dc040 lineage: prebuilt: Update TMO Straight Talk APNs from SQ3A.220605.009.B1
+ba1577e3 lineage: prebuilt: Update US Mobile APN
+2a0ca9ff lineage: prebuilt: Add Carrier ID and MVNO ID for Family Mobile (Walmart)
+ead0426e lineage: prebuilt: Update Mensajes Multimedia from SQ3A.220605.009.B1
+2466f41d lineage: prebuilt: Drop Telcel America APN
+223e8074 lineage: prebuilt: Add Carrier ID and MVNO ID for T-Mobile Ting
+94d56c05 lineage: prebuilt: Add Carrier ID and MVNO ID for GoSmart
+a4fdf73e lineage: prebuilt: Update Cellular One APNs from SQ3A.220605.009.B1
+ec88ffa4 lineage: prebuilt: Drop APN for Brightspot Mobile
+5fc8097c lineage: prebuilt: Update 'Telcel Internet' APN from SQ3A.220605.009.B1
+b9d0496c lineage: prebuilt: Update Simple APNs from SQ3A.220605.009.B1
+b65a3979 kernel: Remove unneeded MKDTIMG dependency
+18f6560e kernel: Ensure dtb(o) always get rebuilt
+119bd539 kernel: Avoid unnecessary savedefconfig
+9e57d99f kernel: Clean up kernel copy recipes
+d8d6d0a0 soong: Add TARGET_USES_EGL_DISPLAY_ARRAY conditional
+6bb68111 repopick: Limit commit counting
+71efb8dd plus: implement rom changelog
+5ec74345 plus: add json generator for OTAs
+e4304bbf plus: add gapps permissions
+27a14172 config: update raven fingerprint to June
+f03666f2 vendor: import Google Sans font for the KeyguardClockSwitch
+1f06be41 vendor: fonts: Import custom fonts
+c4181c48 vendor: Set Google Sans Text as the default body font.
+e9f7cf76 vendor: Make Google Sans the default font
+b40c79e2 vendor: fonts: Refactor fonts.mk to include all fonts
+288e6899 vendor: fonts: Add Google Sans font and change output dir
+cd167bef config: Use raven build fingerprint
+821fba67 vendor: Restore FaceUnlock
+83db7f40 vendor: Add and ship pixel_2016 sysconfig
+9785f519 overlay: core: Assign automotive    *ion role to Android Auto
+8a2a7a0c Settings: Show memory usage in app info
+e2ede158 overlay: SystemUI: Use default surface colors for power menu buttons
+5cd928af overlay: SystemUI: Follow light/dark theme in power menu
+aed1ac35 overlay: SystemUI: Use Monet colors for power menu
+51542f63 overlay: SystemUI: Make emergency button less prominent in global actions
+d1411822 Settings: Show memory usage in app info
+64dfadb5 vendor: Enable ccache for all
+23d4a19f overlay: Default to full gesture navigation
+6de4a58d overlay: Add config for Repainter integration service
+b4ce421b vendor: Build Repainter integration service (RepainterServicePriv) https://github.com/kdrag0n/android_packages_apps_RepainterService
+e44fbaf5 vendor: Enable Gboard side padding
+77842a4e plus: introduce Lawnchair
+c9f3893b config: introduce gapps/vanilla builds
+cd8e5724 plus: rebrand to LineagePlus
+
+====================
+     06-18-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/mirror
+a29d191 Updated to 18-Jun-2022 15:44 UTC
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/commonsys/external/libnfc-nci
+0160798 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/commonsys/frameworks
+f96583d Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/commonsys/packages/apps/Nfc
+9624add Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/interfaces/nfc
+222d05d Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/pn5xx/halimpl
+5ccd3b9 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/pn5xx/hidlimpl
+e078e4d Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/sn100x/halimpl
+6acef2d Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/nxp/opensource/sn100x/hidlimpl
+5b551cf Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/commonsys-intf/bluetooth
+5be730e Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/commonsys-intf/display
+7de613b Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/commonsys/bluetooth_ext
+dfb8d1b Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/commonsys/display
+3b6774e Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+8bb4225 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/commonsys/system/bt
+fb982cc Add .gitupstream file
+
+====================
+     06-17-2022
+====================
+
+====================
+     06-16-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/device/lineage/car
+78fba94 car: Set PRODUCT_IS_AUTO to true
+
+   * /home/cristianvaz/Documentos/LineagePlus/device/qcom/sepolicy
+8017e00 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/device/qcom/sepolicy-legacy-um
+99792af Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/device/qcom/sepolicy_vndr
+6320dc5 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/external/ant-wireless/ant_client
+049aa4b Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/external/ant-wireless/ant_native
+57ee3ee Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/external/ant-wireless/ant_service
+3fb533e Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/external/ant-wireless/hidl
+d9f8441 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/external/json-c
+f14798f Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/native
+6ded64a EGL: Conditionally revert commit a9550f3
+
+   * /home/cristianvaz/Documentos/LineagePlus/hardware/qcom-caf/bootctrl
+9ed7376 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/hardware/qcom-caf/bt
+c680abf Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/hardware/qcom-caf/thermal
+d9519a2 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/hardware/qcom-caf/vr
+96526ff Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/hardware/qcom-caf/wlan
+82433a8 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/kernel/xiaomi/sm8250
+d3e9db4ac configs: Add support for TTL target
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/hudson
+40be373 hudson: Promote xz2c to 19.1
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/wiki
+e021c75 wiki: devices: Promote dipper to 19.1
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/audio
+1a90580 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/audio-hal/st-hal
+585f987 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/cryptfs_hw
+70c5073 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/data-ipa-cfg-mgr
+1e7dcdc Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/dataservices
+7df6e19 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/fm-commonsys
+886d624 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/interfaces
+bab2bf3 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/power
+0f46549 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/thermal-engine
+fdf8503 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/usb
+7f62e2e Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/vibrator
+cc0c3f0 Add .gitupstream file
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/wfd-commonsys
+d579137 Add .gitupstream file
+
+====================
+     06-15-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+9e74478a06c9 Screenrecord: Slightly optimize loading/saving preferences
+3071b6be8168 Screenrecord: Save pref for skip timer switch
+5962ad4ecd56 Screenrecord: Allow to reduce 3 second screen record timer
+fd84ee1f49bc Screenrecord: Add an option to record for longer
+597a4b706ff0 Screenrecord: Save and load set preferences
+ca9e915356cf Screenrecord: Make low quality bitrate scalable per device
+48229014a909 Screenrecord: add blinking stop dot and low quality options
+202461282bf9 SystemUI: Export RecordingService for External Usage
+1209f8d2a320 base: Add back the delete action for the screen recorder notification.
+448dac0a4764 SystemUI: allow to limit the max framerate of built-in screen recorder
+1e038f41feaa ScreenRecord: Save recordings in ScreenRecords
+e38e67381f4c SystemUI: QSAnimator: Hide secondary label in QQS
+cfd1b90425f3 SystemUI: Fix QS clock overlapping on UI mode change
+06467b3fc10f SystemUI: add haptic feedback for qs tiles
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage-sdk
+4691a69f lineage-sdk: Enable advanced reboot by default
+f86eaff3 sdk: Kill trust interface hint on first boot
+89783424 Disable by livedisplay by default
+4ebd1393 sdk: rebrand to LineagePlus
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/gms
+841af0c gms: Add gms_mini for low-end devices
+
+====================
+     06-14-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/build/make
+26aa571 Add vendor-bootconfig.img to target-files-package
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+22eb42421390 SystemUI: Use color accent for charging animation
+f764c6888467 Fix QS clock being white on light theme
+1a1ac86d4bf6 PixelPropsUtils: Press F for bonito and sargo
+2ce17d6dca66 PixelPropsUtils: Use Pixel 5a codename to GMS on Pixels
+e966e9ddfc38 PixelPropsUtils: Disable spoof for recorder app
+cdc66b48e9b9 PixelPropsUtils: Update fingerprints to June 2022 release
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+b4bd787205 Settings: Import missing lottie from SQ3A.220605.009.A1
+caf617c14b Settings: Restyle that horrible sim select dialog
+ac7b1353e4 Settings: Add Glide library
+
+   * /home/cristianvaz/Documentos/LineagePlus/system/sepolicy
+f04386d sepolicy: allow recovery to operate devpts and kmsg
+
+====================
+     06-13-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/device/lineage/atv
+1dd3b22 Standardize wake keys on wade's BT remote
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+30c68ccbb188 Limit SafetyNet workarounds to unstable GMS process
+de0196cc3426 PixelPropsUtils: Use Mi 11 Ultra for games prop
+33c146d9c5ea PixelPropUtils: Add game props for mobile legends
+9ce9ea2f4275 PixelPropsUtils: Do not change props for Fortnite * Else Game Crash after logo
+85a14a360c51 CustomFaceProvider: Fix after android-12.1.0_r7 merge
+f9c7bf1be27f PowerUI: Mute logcat spam.
+92b47d80b80c monet: Fix overly low chroma for tones below 90
+b651b106a239 graphics: Override system fonts with user-selected overlays
+989ad9fd5c39 styles: Use user fonts for Material UI themes
+cae188628be8 AppErrors: Respect appsNotReportingCrashes for ANRs
+9c08e564eb17 SystemUI: Use geometric 6 and 9 glyphs in PIN entry keypad
+0ba531b66a2d SystemUI: Reduce scrim color animation duration to 375 ms
+c43e93b44a43 PackageInfo: Optimize ApplicationInfo creation
+9adf931a0c16 SystemUI: Require unlocking to use sensitive QS tiles
+b8a677aa0bcd ripple: Replace with Fluent Design-inspired ripple animation
+4832b3ab0b12 Editor: Disable magnifier position animation
+d4441686be8d pm: Add seamless migration between test and release keys
+1d5296fca93c SystemUI: Enable tuner by default
+deb23c7e0527 SystemUI: Don't show tuner warning
+e7ad6d1e065b SystemUI: Hide more tuner preferences on production builds
+fd7ffd6d8e0b LayoutInflater: Opportunistically create views directly for performance
+0e901a185c70 SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+8b097a39aaf3 InsetsStateController: Replace ArrayMap with HashMap for performance
+add3c06bad65 LocalServices: Replace ArrayMap with HashMap for performance
+274b96039ed8 ThemedResourceCache: Replace ArrayMap with HashMap for performance
+985dd8598cb3 Trace: Disable debug tracing on production builds
+401309030291 Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility"
+f969077a28a2 SystemUI: Skip screen-on animation in all scenarios
+5b71a91defe3 Skip screen on animation when wake and unlock via biometrics
+fd64c6ccf641 core: Remove old app target SDK dialog
+0f221dabc91a core: Remove default aspect ratio limit for old apps
+1ac6a95d04cc Allow disabling USB notifications
+b0e71b14c52c Allow disabling important developer notifications
+62775751a1ac Deprioritize important developer notifications
+5cc9dca2a70e SystemUI: Speed up actions expansion animation
+17b1529b9977 display: Don't spam log when display state changes
+de20d415e684 SystemUI: Use Monet colors for power menu
+ba2b785013c3 PixelPropsUtils: Whitelist ARCore
+377c6cdffae8 PixelPropUtils: Add GamesProps
+61e51d0a5614 PixelPropsUtils: Update fingerprints to May 2022 release
+f92833efaff3 PixelPropsUtils: Avoid spoofing for Pixel Buds
+a0da625e5a0c PixelPropsUtils: Update fingerprints to April 2022 release
+415b25fe9f12 PixelPropsUtils: Update to SP2A.220305.013.A3
+8ece26a20f44 PixelPropsUtils: Switch to redfin props for now
+33a2d6220a87 PixelProps: Set Pixel 5 as spoof for more Google apps
+3d8cf4633b75 PixelPropsUtils: Bypass hw attestation on newer pixel devices
+83a069912f22 PixelPropsUtils: Update fingerprints to feb release
+0dd952583f75 PixelPropUtils: remove spoofing for currently supported Pixels
+be3f8db56665 PixelPropsUtils: Avoid spoofing props for gcam and mods
+0fd2c27af532 PixelPropsUtils: Spoof Pixel XL for Google Photos
+fa99a67680ad PixelPropsUtils: Update fingerprints to december release
+73f1ffe7e545 Core: Extend Pixel experience Blacklist For Google Photos
+562dfad2c32d PixelPropsUtils: Add chrome into extra packages list
+801e9d8c21ca PixelPropsUtils: Whitelist GoogleCamera
+82dd8fac4971 PixelPropsUtils: Use redfin props for some apps
+77454c406fce PixelPropsUtils: Update props to SD1A.210817.036
+2df837aa4e02 core: Blacklist P21 experience system feature from Google Photos
+e649366fc8e4 PixelPropsUtils: Use Build.VERSION.INCREMENTAL
+0430f1903f6a PixelPropsUtils: Set userdebug as Build.TYPE for GMS
+aaafe2616ece keystore: Block key attestation for SafetyNet
+fdf5965c3062 PixelPropsUtils: Rewrite logic
+1f294f90f1da PixelPropsUtils: Use Pixel 6 props
+d44e9b2dcb5d Introduce PixelPropsUtils
+fb19817561e9 SystemUI: Speed up actions expansion animation
+d7d1bd5b28b3 SystemUI: Reduce screenshot dismiss delay to 2 seconds
+b89c6c9bcedc display: Make Night Light transition more gradual
+7db4c7a4a261 SystemUI: Remove Android build number from QS footer
+32acd5f827da SystemUI: Update keyguard clock metrics for Inter font
+b4c8fead5baf SystemUI: Use default letter spacing for QS tiles
+7e6aa4c0301f SystemUI: Update lock screen clock typography for Inter font
+ae063e16a1c2 SystemUI: Fix SystemUI Crash
+844484ff8b3c add com.android.phone to indicator exemptions
+e79b73545888 add com.android.bluetooth to indicator exemptions
+8f0d8f2214bc SystemUI: Face Unlock animation
+31cf9817608e SystemUI: Fix ripple animation for side fp devices
+06f59ade75fb Add Settings services to location indicator whitelist
+d366c4e3dfd3 Do not show camera indicator for Face Unlock service
+7e0c7dd0f74d Add Tethering and SystemUI to location indicator whitelist
+1027df37aa1b Do not show location indicator for bluetooth package
+299c289c447e SystemUI: AuthBiometricFaceView: Don't spam log
+c5a001a5c940 SystemUI: use simple check for isFaceDisabled
+315bb424a22a WalletActivity: Don't explicitly request face auth
+db237023a135 Reset face auth on occluding app when authenticated
+9b91fe216c6b FaceService: Allow our face unlock to be used on third-party apps
+2b60625ef741 Allow changing face unlock method when locked
+30bd38ddde88 base: Remove AOSP translations of face vendor error messages
+70ccd063e824 SystemUI: Tell user when face unlock detection is running
+f549ef4dfaea KeyguardBouncer: Don't delay showing if face auth running
+ff3a32082581 base: do not use new lockscreen layout for bypass
+2748098e973d Add idle lockout message for FaceUnlock
+1c7f4af5f1df SystemUI: Allow listening for face only on pin/pass view
+b1a4dd2f5d41 Initial import of Face Unlock for S
+c2187ea8bda7 Partially revert "Wake up to lock screen when bouncer is visible"
+08990db9295b SystemUI: Show advanced when advanced reboot is on
+96b7af38d351 Add deep sleep info to uptime preference
+f1cee6367fa6 aapt: Default to 0 compression ratio
+850efe4a7202 base: set scrolling friction to 0.006f
+9152479438cd SystemUI: Update string for add tiles with one click
+1457efac2cce base: SystemUI: Allow user to add/remove QS with one click
+e1d82e6b9521 Battery Styles: Show a bolt ⚡ when charging
+a8259e031924 DozeSensors: only use proximity sensor if supported
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+c93c50cc0c Settings: align user avatar with homepage title
+40336b8eaa Settings: Use default letter spacing for category titles
+ac6cd0d62c Settings: Only use FP enrollment for SUW
+f372775aaa Settings: move Extra Dim feature to display
+39cf66d394 Settings: Add missing illustration for camera gesture
+869646a5ab Settings: Allow using face as auth method for apps
+4fee9a11cb Initial import of Face Unlock for S
+fd58a60a1b Expose face-based auto-rotate settings
+2de71b138b Ignore custom app space management activities
+67529aa0de Remove app uninstall and disable confirmation dialogs
+7ba011c7f9 Remove storage manager activation warning
+cb32c4ea87 Remove roaming warning dialog
+438129fa33 Unlock mobile network settings when airplane mode is on
+6d34214a84 Launch APN settings on main activity stack
+56d2fff14a Launch mobile network settings on main activity stack
+2e09bd7700 Expand abbreviation in average memory usage string
+39abcf22d3 Settings: Expose feature flag UI on all builds
+33c926174e SearchBar: Add avatar to search bar
+2daea535de Show user's Google avatar on the homepage
+5d715ce2fb Settings: Protect sensitive info on About device
+2ec8f25535 Rearrange density options under Settings/Display
+a9a928c3b7 InstalledApp: show link to Google Play
+c251fa0bd3 Open app when clicking on icon in App Info
+ac21974731 Settings: Hide|disable "Phone number" from About phone information
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Updater
+17b0608 New translations (#31)
+
+   * /home/cristianvaz/Documentos/LineagePlus/system/core
+bb7ba17e1 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+500d1c913 fastboot: Prefer ro.boot.hardware.revision for hw-revision
+
+====================
+     06-12-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+ba528922c37f SystemUI: Add HBM provider for UDFPS on Pixel devices
+9129d2dc731e SystemUI: Import Pixel display interfaces
+
+====================
+     06-11-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/build/soong
+bec7d52 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+23b641c5793b Show the vibrate icon in the Status Bar by default
+8acf7b3981a5 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/crowdin
+b9bb829 config: lineage-19.1_aosp: Update for qpr3 changes
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/LineageParts
+407d965 Trust: Add option to always disable USB gadgets
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+34dec4a9ad Hide the "Show the vibrate icon in the Status Bar" setting
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/crowdin
+d5cd0e7 Update for qpr3 changes
+
+====================
+     06-10-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/FaceUnlockService
+aedf18a Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/resources/devicesettings
+d53614e devicesettings: Add moto gesture strings
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/lineage
+c93bdd63 partner_gms: Stop relying on exported vars for ATV and Automotive targets
+
