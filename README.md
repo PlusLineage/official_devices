@@ -19,3 +19,9 @@ In order for a device to be OTA compliant, there are a few things to know.
   ]
 }
 ```
+## 2. Maintain Officially ##
+
+-----------------
+If you're building **LineagePlus** for an unofficial device and would like to make it official please fill this form and i will contact u
+https://docs.google.com/forms/d/e/1FAIpQLSf0-xhhwxyqFpi9FtaGRkjZ9ZWgw6FKqaQV7mOlAqrauJNyLw/viewform?usp=sf_link
+
