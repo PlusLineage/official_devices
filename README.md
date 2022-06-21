@@ -1,27 +1,20 @@
-# LineagePlus OTA repo
 
-## 1. Introduction ##
-In order for a device to be OTA compliant, there are a few things to know.
+## Adding Official Support
 
-### 1.1 JSON structure ###
-```
-{
-  "response": [
-    {
-      "datetime": 1654958359,
-      "filename": "LineagePlus-19.1-OFFICIAL-GAPPS-20220611-alioth.zip",
-      "id": "05f8f84919cd576a36f469504cee2864",
-      "romtype": "OFFICIAL",
-      "size": 1795871473,
-      "url": "https://sourceforge.net/projects/lineageplus/files/19.1/alioth/LineagePlus-19.1-OFFICIAL-GAPPS-20220611-alioth.zip/download",
-      "version": "19.1"
-    }
-  ]
-}
-```
-## 2. Maintain Officially ##
+If you wish to maintain your device officially then read maintainer requirement mentioned below and make sure that you qualify before moving further or else you will be rejected.
 
------------------
-If you're building **LineagePlus** for an unofficial device and would like to make it official please fill this form and i will contact u
-https://docs.google.com/forms/d/e/1FAIpQLSf0-xhhwxyqFpi9FtaGRkjZ9ZWgw6FKqaQV7mOlAqrauJNyLw/viewform?usp=sf_link
+If you fulfill the criteria mentioned below, fill out this [**maintainership form**](https://docs.google.com/forms/d/e/1FAIpQLSf0-xhhwxyqFpi9FtaGRkjZ9ZWgw6FKqaQV7mOlAqrauJNyLw/viewform?usp=sf_link)) and wait for our response
+
+## Maintainer Requirements
+
+- You **MUST** own the device. Blind and untested builds aren't allowed. Devices that have minimal hardware difference from yours are allowed to be maintained, as long as you maintain your own device too.
+
+- You **MUST** have a good knowledge of git.
+
+- You **MUST** create and maintain an unofficial build for some amount of time, (Don't instantly make a build and apply. That'll mean an instant rejection), make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
+
+- You **MUST** have your device sources available publicly with proper authorship for each commit.
+
+- You must show the **real** device sources being used.
+
 
