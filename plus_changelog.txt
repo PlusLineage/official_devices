@@ -1,0 +1,315 @@
+====================
+     06-29-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/build/make
+9bd94e0cc releasetools: Properly handle map files
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+8767fc8e8640 Revert "SystemUI: Disable tuner by default"
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Updater
+18d3a3c Updater: Add missing Storage permission
+2ae915b Updater: Nuke Gapps fetching
+7b09840 Updater: Plus bringup
+
+====================
+     06-28-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+afb82e5a58a7 SystemUI: Disable tuner by default
+skipping kernel/tests/
+
+====================
+     06-27-2022
+====================
+skipping kernel/tests/
+
+====================
+     06-26-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/android
+302c337 lineage: Remove group from qcom display HALs
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+72fd96c40251 Automatic translation import
+014378e7b249 SystemUI: MediaOutputController: Avoid NPE when created with empty packageName
+75239f199269 SystemUI: Redraw display cutout on overlay changes
+d735446f2dcd fixup! Allow lineage resources package to be overlayed by RRO packages
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/mirror
+e9e5c2f Updated aosp-minimal to 25-Jun-2022 12:01 UTC
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+8f028f55ff Automatic translation import
+e1a811c856 Settings: Make NetworkScanHelper max search time customizable
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/lineage
+074357c2 kernel: Move TARGET_KERNEL_ADDITIONAL_FLAGS to kernel task
+101488b2 lineage: config: Don't pass CFLAGS_MODULE="-fno-pic" if using LLVM
+cb770f87 kernel: Switch to AOSP DTC instead of using scripts/dtc
+82b2038c kernel: Use LLVM's substitutes for GNU binutils if possible
+4bfd1b8d kernel: Ensure dtb(o) always get rebuilt
+dbef81b7 kernel: Avoid unnecessary savedefconfig
+1828bfc5 kernel: Clean up kernel copy recipes
+ec913454 soong: Add TARGET_USES_EGL_DISPLAY_ARRAY conditional
+fbc3627b repopick: Limit commit counting
+
+====================
+     06-25-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/device/lineage/sepolicy
+6bd2a4a RIP Snap
+
+   * /home/cristianvaz/Documentos/LineagePlus/hardware/qcom/camera
+5a517ca msm8998: camera: Switch to display_headers lib include
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Camera2
+a31a994 Camera2: remove unused drawables
+
+   * /home/cristianvaz/Documentos/LineagePlus/system/core
+80c588e92 core: Support OPPO offline charging
+3ac231867 init.rc: Hide Magisk better
+
+   * /home/cristianvaz/Documentos/LineagePlus/system/sepolicy
+9246e97 sepolicy: Partial revert Add sdcard_posix_contextmount_type attribute
+
+   * /home/cristianvaz/Documentos/LineagePlus/system/vold
+b75432d vold: Accept Linux GPT partitions on external SD cards
+
+====================
+     06-24-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+bcd0f75632df base: add API for disabling gestural navigation
+2e88ea17f8cb base: Add three-fingers-swipe to screenshot [1/2]
+7c0baded847b base: define missing config_lightFontFamily
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/hudson
+d2b90ce FP3: Promote FP3 to 19.1
+
+   * /home/cristianvaz/Documentos/LineagePlus/lineage/wiki
+19af191 wiki: devices: Promote FP3 to 19.1
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+dcda06e610 Settings: Add three-fingers-swipe to screenshot [2/2]
+8c96f7ae96 Settings: Use font configs instead fonts directly
+94615345a0 Settings: Add Game Space support
+56ecc200c7 Settings: Allow using kotlin in source
+cdd616140d AppInfo: Add time spent in app from Wellbeing
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/gms
+fb7884b gms: Add gms_mini for low-end devices
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/lawnchair
+67ec9a7 lawnicons: update to Lawnicons By TeamFiles
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/lineage
+49ad7c6c plus: build GameSpace
+5144634c plus: drop Lineage statistics
+58a68c51 plus: add LineagePlus ascii logo
+
+====================
+     06-23-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+a9a95ad9a6ac SystemUI: Add support for GameSpace [1/2]
+885ab6e83bdd Paint: Enable subpixel text positioning by default
+1a2eed46f583 display: Render screen-off fade animation in linear sRGB space
+db8a65ad43aa display: NightDisplay: Use chromatic adaptation when possible
+c44668b2e80a display: ChromaticAdaptation: Fix matrix formatting in logs
+92e95c08d635 display: Improve matrix formatting for easier debugging
+f7b6d046db59 display: Create common chromatic adaptation tint controller
+cc1dce40f285 display: Use CAT16 for display white balance transform
+d812bb961ad5 graphics: Add CAT16 sensor space for chromatic adaptation
+87bebe060274 Show infinity for large notification counts
+e7eb50df208c Dark Theme "TURN ON UNTIL SUNRISE" is not retained after reboot
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/TvSettings
+12a85ab Revert "TwoPanelSettings: improve category title text appearance"
+
+====================
+     06-22-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+2a9ed0123caa SystemUI: Introduce Adaptive Playback [1/2]
+554770f98032 SystemUI: Add dual-tone light and dark themes for QS
+aacbbdef3034 SystemUI: Initialize QS tiles in inactive state
+a0fedbfc2254 SystemUI: Follow light/dark theme in quick settings
+fa379f543263 Revert "Do not re-inflate QS and SB when CONFIG_UI_MODE"
+d6cf7f1c7abd SystemUI: Make QS panel change on UI mode changes
+48ab9beb6e9d StatusBar: dismiss qs when screen's going off if showing
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Contacts
+30f898b Add READ_PHONE_NUMBERS to requested permissions for Contacts
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Gallery2
+2065dd6 Rename jni libs back to their original names
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+0aafa57c99 Settings: Use List Preference for Dark mode
+92cefba945 AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+30a465c779 Settings: Move "Adaptive Playback" option to Sound Settings.
+623b5e9cf9 AdaptivePlayback: Add a intro text to the fragment
+134610eaf9 Settings: Introduce Adaptive Playback [2/2]
+ac76469dbb Settings: Move over refresh rate controls to Display
+feaba6a586 Remove storage manager activation warning
+fd8d06560c Remove roaming warning dialog
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/crowdin
+e03a584 Automatic translation import
+
+====================
+     06-21-2022
+====================
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/AudioFX
+cf6b69c Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Backgrounds
+6014432 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/DeskClock
+1db3b42 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Dialer
+83c75fe Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Eleven
+5c61fbf Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Etar
+70563b6 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/FlipFlap
+3936ffc Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Jelly
+8ae4892 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/LineageParts
+f7754f9 Update color mode preview from Android 12
+ddd416b Kill redundant search fun party
+8a0b04d Make trust interface less boring
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Messaging
+49dae84 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Profiles
+c8896b5 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Recorder
+a6b4087 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/SetupWizard
+a67a713 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Trebuchet
+c54542a Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/inputmethods/LatinIME
+1b25c36 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/overlays/Lineage
+2c4923f overlay: Update black theme for dark mode
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/providers/DownloadProvider
+ec3bcd9 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/resources/devicesettings
+806a38f Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/services/Mms
+fff00f3 Automatic translation import
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/qcom/opensource/fm-commonsys
+e6697a2 Automatic translation import
+
+====================
+     06-20-2022
+====================
+
+   * /home/cristianvaz/Documentos/LineagePlus/frameworks/base
+71403fa58f7d SystemUI: MediaOutputController: Avoid NPE when created with empty packageName
+5d2b0979b04e SystemUI: Redraw display cutout on overlay changes
+9642ebef56e9 fixup! Allow lineage resources package to be overlayed by RRO packages
+skipping kernel/tests/
+
+   * /home/cristianvaz/Documentos/LineagePlus/packages/apps/Settings
+97e867c6a2 Settings: Make NetworkScanHelper max search time customizable
+298a861fba Remove storage manager activation warning
+cf78d79789 Remove roaming warning dialog
+8730aab606 Settings: add maintainer string
+da59235386 Settings: Bring in missing lottie animations
+1582657201 Settings: disable all bugreport settings
+351ef628ac fuelgauge: Use Enhanced Battery Prediction from Turbo
+50073e1fef Expand abbreviation in average memory usage string
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/codeaurora/telephony
+a5c1a53 IMS: Add Motorola specific API for VT
+
+   * /home/cristianvaz/Documentos/LineagePlus/vendor/lineage
+1f486b43 apns: Remove user_editable="false" for user visible APNs
+9129456f lineage: prebuilt: Update T-Mobile U.S. APNs from SQ3A.220605.009.B1
+db4d3d56 lineage: prebuilt: Drop GIV Mobile, dead
+d7d60492 lineage: prebuilt: Drop ROK Mobile
+41aa22ba lineage: prebuilt: Drop UVA Mobile
+0b7dc040 lineage: prebuilt: Update TMO Straight Talk APNs from SQ3A.220605.009.B1
+ba1577e3 lineage: prebuilt: Update US Mobile APN
+2a0ca9ff lineage: prebuilt: Add Carrier ID and MVNO ID for Family Mobile (Walmart)
+ead0426e lineage: prebuilt: Update Mensajes Multimedia from SQ3A.220605.009.B1
+2466f41d lineage: prebuilt: Drop Telcel America APN
+223e8074 lineage: prebuilt: Add Carrier ID and MVNO ID for T-Mobile Ting
+94d56c05 lineage: prebuilt: Add Carrier ID and MVNO ID for GoSmart
+a4fdf73e lineage: prebuilt: Update Cellular One APNs from SQ3A.220605.009.B1
+ec88ffa4 lineage: prebuilt: Drop APN for Brightspot Mobile
+5fc8097c lineage: prebuilt: Update 'Telcel Internet' APN from SQ3A.220605.009.B1
+b9d0496c lineage: prebuilt: Update Simple APNs from SQ3A.220605.009.B1
+b65a3979 kernel: Remove unneeded MKDTIMG dependency
+18f6560e kernel: Ensure dtb(o) always get rebuilt
+119bd539 kernel: Avoid unnecessary savedefconfig
+9e57d99f kernel: Clean up kernel copy recipes
+d8d6d0a0 soong: Add TARGET_USES_EGL_DISPLAY_ARRAY conditional
+6bb68111 repopick: Limit commit counting
+71efb8dd plus: implement rom changelog
+5ec74345 plus: add json generator for OTAs
+e4304bbf plus: add gapps permissions
+27a14172 config: update raven fingerprint to June
+f03666f2 vendor: import Google Sans font for the KeyguardClockSwitch
+1f06be41 vendor: fonts: Import custom fonts
+c4181c48 vendor: Set Google Sans Text as the default body font.
+e9f7cf76 vendor: Make Google Sans the default font
+b40c79e2 vendor: fonts: Refactor fonts.mk to include all fonts
+288e6899 vendor: fonts: Add Google Sans font and change output dir
+cd167bef config: Use raven build fingerprint
+821fba67 vendor: Restore FaceUnlock
+83db7f40 vendor: Add and ship pixel_2016 sysconfig
+9785f519 overlay: core: Assign automotive    *ion role to Android Auto
+8a2a7a0c Settings: Show memory usage in app info
+e2ede158 overlay: SystemUI: Use default surface colors for power menu buttons
+5cd928af overlay: SystemUI: Follow light/dark theme in power menu
+aed1ac35 overlay: SystemUI: Use Monet colors for power menu
+51542f63 overlay: SystemUI: Make emergency button less prominent in global actions
+d1411822 Settings: Show memory usage in app info
+64dfadb5 vendor: Enable ccache for all
+23d4a19f overlay: Default to full gesture navigation
+6de4a58d overlay: Add config for Repainter integration service
+b4ce421b vendor: Build Repainter integration service (RepainterServicePriv) https://github.com/kdrag0n/android_packages_apps_RepainterService
+e44fbaf5 vendor: Enable Gboard side padding
+77842a4e plus: introduce Lawnchair
+c9f3893b config: introduce gapps/vanilla builds
+cd8e5724 plus: rebrand to LineagePlus
+
